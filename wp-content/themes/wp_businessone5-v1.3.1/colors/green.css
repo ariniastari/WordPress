@@ -1,0 +1,137 @@
+/*
+============================================================================
+green
+============================================================================
+*/
+
+a, a:visited {
+	color: #178445;
+} 
+
+a:hover {
+	color: #a2db73;
+}
+
+.pre-nav li a:hover {
+	color: #3a7051;
+}
+
+.c-tel:hover {
+	color: #9de2bb;
+}
+
+#navigation {
+	background: url(../images/green/nav-bg.png) repeat-x;
+}
+
+#navigation > li a {
+	background: url(../images/green/nav-bg.png) repeat-x;
+	color: #ebeae5;
+	border-right: 1px solid #51996f;
+	border-left: 1px solid #72ba90;
+}
+
+#navigation > li:first-child a {
+	border-left: none;
+}
+
+#navigation li a:hover,
+#navigation li.sfHover > a,
+#navigation li.current_page_item a,
+#navigation li.current-menu-item a{
+	color: #9de2bb;
+}
+
+#navigation > li.sfHover {
+	background: url("../images/green/nav-bg-active.png") repeat-x;
+}
+
+.left-rbn {
+	background: url('../images/green/sprites.png') no-repeat 0 0; 
+}
+
+.right-rbn {
+  background: url("../images/green/sprites.png") no-repeat scroll 0 -58px transparent;
+}
+
+.sld-next {
+	background: url('../images/green/sprites.png') no-repeat -3px -180px;
+}
+
+.sld-prev {
+	background: url('../images/green/sprites.png') no-repeat 0 -126px;
+}
+
+.sld-pager {
+	background: url('../images/green/sprites.png') no-repeat -4px -242px;
+}
+
+.sld-pager a,
+.sld-pager a:visited {
+	background: url('../images/green/sprites.png') no-repeat -21px -284px;
+}
+
+.top-widget-area .ci-more-link {
+	background: url("../images/green/nav-bg.png") repeat-x;
+	border: 1px solid #3a7051;
+	border-top: none;
+}
+
+.quote-icon {
+	background: url('../images/green/sprites.png') no-repeat -2px -308px; 
+}
+
+#footer {
+	background :url("../images/green/footer-bg.png");
+}
+
+.footer-top {
+	background: #3a7051 url("../images/pat4.png");
+}
+
+.footer-top-wrap {
+	background: url("../images/green/footer-inner-bg.png");
+}
+
+#footer .twitter-time,
+#footer .twitter-time:active,
+#footer .ci-news-time {
+	color: #5da47b;
+}
+
+#footer .widget ul li {
+	border-bottom: 1px solid #2a5b40;
+	border-top: 1px solid #4f7f63;
+}
+
+#footer .testimonial {
+	border-bottom: 1px solid #2a5b40;
+	border-top: 1px solid #4f7f63;
+}
+
+#footer .widget ul li:first-child {
+	border-top: none;
+}
+
+#footer a, footer a:visited {
+	color: #9de2bb;
+}
+
+#footer a:hover {
+	color: #a2db73;
+}
+
+#footer .widget ul li:last-child {
+	border-bottom: none;
+}
+
+.footer-copy {
+	background: #2b2b2b;
+}
+
+#footer input[type=text],
+#footer textarea {
+	background: #3a7051;
+	border: 2px solid #3a7051;
+	color: #9de2bb;
+}

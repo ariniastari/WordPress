@@ -1,0 +1,129 @@
+/*
+============================================================================
+default color scheme (EVERY COLOR style goes here. If there's no link from
+a template to any of the color schemes, page should be just "naked" and
+fully functional
+============================================================================
+*/
+
+a, a:visited {
+	color: #ee5222;
+} 
+
+a:hover {
+	color: #a5c5c8;
+}
+
+.pre-nav li a:hover {
+	color: #ee5222;
+}
+
+.c-tel:hover {
+	color: #ee5222;
+}
+
+#navigation {
+	background: url(../images/default/nav-bg.png) repeat-x;
+}
+
+#navigation > li a {
+	background: url(../images/default/nav-bg.png) repeat-x;
+	color: #ebeae5;
+	border-left: 1px solid white;
+}
+
+#navigation > li:first-child a {
+	border-left: none;
+}
+
+#navigation li a:hover,
+#navigation li.sfHover > a,
+#navigation li.current_page_item a,
+#navigation li.current-menu-item a {
+	color: #fb6f44;
+}
+
+#navigation > li.sfHover {
+	background: url("../images/default/nav-bg.png") repeat-x;
+}
+
+.left-rbn {
+	background: url('../images/default/sprites.png') no-repeat 0 0; 
+}
+
+.right-rbn {
+  background: url("../images/default/sprites.png") no-repeat scroll 0 -58px transparent;
+}
+
+.sld-next {
+	background: url('../images/default/sprites.png') no-repeat -3px -180px;
+}
+
+.sld-prev {
+	background: url('../images/default/sprites.png') no-repeat 0 -126px;
+}
+
+.sld-pager {
+	background: url('../images/default/sprites.png') no-repeat -4px -242px;
+}
+
+.sld-pager a,
+.sld-pager a:visited {
+	background: url('../images/default/sprites.png') no-repeat -21px -284px;
+}
+
+.top-widget-area .ci-more-link {
+	background: url("../images/default/nav-bg.png") repeat-x;
+	border-top: none;
+}
+
+.quote-icon {
+	background: url('../images/default/sprites.png') no-repeat -2px -308px; 
+}
+
+#footer {
+	background :url("../images/default/footer-bg.png");
+}
+
+.footer-top {
+	background: #444038 url("../images/pat4.png");
+}
+
+.footer-top-wrap {
+	background: url("../images/default/footer-inner-bg.png");
+}
+
+#footer .twitter-time,
+#footer .twitter-time:active,
+#footer .ci-news-time {
+	color: #938669;
+}
+
+#footer .testimonial {
+	border-bottom: 1px solid #37362B;
+	border-top: 1px solid #514940;
+}
+
+#footer .widget ul li {
+	border-bottom: 1px solid #37362b;
+	border-top: 1px solid #514940
+}
+
+#footer .widget ul li:first-child {
+	border-top: none;
+}
+
+#footer .widget ul li:last-child {
+	border-bottom: none;
+}
+
+.footer-copy {
+	background: #2a2825;
+}
+
+#footer input[type=text],
+#footer textarea {
+	background: #3c3930;
+	border: 2px solid #4f4940;
+	color: #847566;
+}

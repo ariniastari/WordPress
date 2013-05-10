@@ -1,0 +1,137 @@
+/*
+============================================================================
+blue
+============================================================================
+*/
+
+a, a:visited {
+	color: #ee5222;
+} 
+
+a:hover {
+	color: #e38062;
+}
+
+.pre-nav li a:hover {
+	color: #ee5222;
+}
+
+.c-tel:hover {
+	color: #ee5222;
+}
+
+#navigation {
+	background: url(../images/blue/nav-bg.png) repeat-x;
+}
+
+#navigation > li a {
+	background: url(../images/blue/nav-bg.png) repeat-x;
+	color: #ebeae5;
+	border-right: 1px solid #58b0d9;
+	border-left: 1px solid #3086ae;
+}
+
+#navigation > li:first-child a {
+	border-left: none;
+}
+
+#navigation li a:hover,
+#navigation li.sfHover > a,
+#navigation li.current_page_item a,
+#navigation li.current-menu-item a {
+	color: #fb6f44;
+}
+
+#navigation > li.sfHover {
+	background: url("../images/blue/nav-bg-active.png") repeat-x;
+}
+
+.left-rbn {
+	background: url('../images/blue/sprites.png') no-repeat 0 0; 
+}
+
+.right-rbn {
+  background: url("../images/blue/sprites.png") no-repeat scroll 0 -58px transparent;
+}
+
+.sld-next {
+	background: url('../images/blue/sprites.png') no-repeat -3px -180px;
+}
+
+.sld-prev {
+	background: url('../images/blue/sprites.png') no-repeat 0 -126px;
+}
+
+.sld-pager {
+	background: url('../images/blue/sprites.png') no-repeat -4px -242px;
+}
+
+.sld-pager a,
+.sld-pager a:visited {
+	background: url('../images/blue/sprites.png') no-repeat -21px -284px;
+}
+
+.top-widget-area .ci-more-link {
+	background: url("../images/blue/nav-bg.png") repeat-x;
+	border: 1px solid #534c3f;
+	border-top: none;
+}
+
+.quote-icon {
+	background: url('../images/blue/sprites.png') no-repeat -2px -308px; 
+}
+
+#footer {
+	background :url("../images/blue/footer-bg.png");
+}
+
+.footer-top {
+	background: #22617F url("../images/pat4.png");
+}
+
+.footer-top-wrap {
+	background: url("../images/blue/footer-inner-bg.png");
+}
+
+#footer .twitter-time,
+#footer .twitter-time:active,
+#footer .ci-news-time {
+	color: #3d8db3;
+}
+
+#footer .widget ul li {
+	border-bottom: 1px solid #134c66;
+	border-top: 1px solid #27769a;
+}
+
+#footer .testimonial {
+	border-bottom: 1px solid #134c66;
+	border-top: 1px solid #27769a;
+}
+
+#footer .widget ul li:first-child {
+	border-top: none;
+}
+
+#footer a, footer a:visited {
+	color: #82d1fa;
+}
+
+#footer a:hover {
+	color: white;
+}
+
+#footer .widget ul li:last-child {
+	border-bottom: none;
+}
+
+.footer-copy {
+	background: #2b2b2b;
+}
+
+#footer input[type=text],
+#footer textarea {
+	background: #22617F;
+	border: 2px solid #22617F;
+	color: #82d1fa;
+}
