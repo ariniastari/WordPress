@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div id="inner-page" class="wrap">
-	<div class="inner-page-container group">
+	<div class="inner-page-container fullwidth group">
 
 		<article class="entry">
 			<?php 
@@ -37,10 +37,7 @@
 		<?php endwhile; endif; ?>
 
 		<?php ci_pagination(); ?>
-		
-		<div id="sidebar">
-			<?php dynamic_sidebar('blog-sidebar'); ?>
-		</div><!-- #sidebar -->		
+			
 	</div> <!-- .inner-page-container -->
 </div> <!-- .inner-page -->
 

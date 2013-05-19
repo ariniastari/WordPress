@@ -16,7 +16,27 @@
 
 
 <div id="pre-head">
-	<div class="wrap group">
+	
+
+
+
+
+<header id="header">
+	<div class="wrap">
+		<div class="left">
+			<div class="mast-head group">
+				<hgroup class="logo <?php logo_class(); ?>">
+					<?php ci_e_logo('<h1 class="logo">', '</h1>'); ?>
+					<?php ci_e_slogan('<span>', '</span>'); ?>
+				</hgroup>
+
+				<?php if(ci_setting('business_phone')): ?>
+					<a href="<?php echo get_permalink(ci_setting('contact_page')); ?>" class="c-tel"><?php ci_e_setting('business_phone'); ?></a>
+				<?php endif; ?>
+			</div> <!-- .mast-head -->
+		</div>
+
+		<div class="group right">
 		<?php 
 			if(has_nav_menu('ci_top_menu'))
 				wp_nav_menu( array(
@@ -27,24 +47,8 @@
 					'menu_class' 		=> 'pre-nav'
 				));
 		?>
-	</div>
-</div> <!-- #pre-head -->
-
-
-
-<header id="header">
-	<div class="wrap">
-		<div class="mast-head group">
-
-			<hgroup class="logo <?php logo_class(); ?>">
-				<?php ci_e_logo('<h1 class="logo">', '</h1>'); ?>
-				<?php ci_e_slogan('<span>', '</span>'); ?>
-			</hgroup>
-
-			<?php if(ci_setting('business_phone')): ?>
-				<a href="<?php echo get_permalink(ci_setting('contact_page')); ?>" class="c-tel"><?php ci_e_setting('business_phone'); ?></a>
-			<?php endif; ?>
-		</div> <!-- .mast-head -->
+		</div>
+		<div class="clear"></div>
 
 		<nav id="nav">
 			<span class="left-rbn"></span>
@@ -65,8 +69,9 @@
 			<span class="right-rbn"></span>
 		</nav>
 	</div> <!-- .wrap -->
-</header>
 
+</header>
+</div> <!-- #pre-head -->
 <?php 
 	if(is_page_template('template-front.php') or is_home())
 	{

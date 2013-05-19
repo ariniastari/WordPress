@@ -9,16 +9,17 @@ Template Name: Post Listing
 <?php
 	
 	$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+
 	
 	if (is_page('104')) {
-		$r = new WP_Query(array('category_name' => 'news_and_article', 'posts_per_page' => 1, 'paged' => $paged));
+		query_posts(array('category_name' => 'news_and_article', 'posts_per_page' => 6, 'paged' => $paged));
 	} else if (is_page('101')) {
-		$r = new WP_Query(array('category_name' => 'program', 'posts_per_page' => 1, 'no_found_rows' => true, 'post_status' => 'publish', 'ignore_sticky_posts' => true));
+		query_posts(array('category_name' => 'program', 'posts_per_page' => 6, 'paged' => $paged));
 	}
 ?>
 <div id="inner-page" class="wrap blog">
 	<div class="inner-page-container fullwidth group">
-		<?php if ( $r -> have_posts() ) : while ( $r -> have_posts() ) : $r-> the_post(); ?>
+		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 			<article id="post-<?php the_ID();?>" <?php post_class('entry group'); ?>>
 				<h1><a href="<?php the_permalink(); ?>" title="<?php echo esc_attr(__('Permalink to', 'ci_theme').' '.get_the_title()); ?>"><?php the_title(); ?></a></h1>
 				<?php if ( has_post_thumbnail() ) : ?>
@@ -34,6 +35,7 @@ Template Name: Post Listing
 			</article>
 		<?php endwhile; endif; ?>
 		<?php ci_pagination(); ?>
+		<?php wp_reset_query(); ?>
 	
 	</div> <!-- .inner-page-container -->
 </div> <!-- .inner-page -->

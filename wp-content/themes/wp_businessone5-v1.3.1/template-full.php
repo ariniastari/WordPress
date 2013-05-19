@@ -14,7 +14,6 @@ Template Name: Full width, no sidebar
 	
 				<?php the_content(); ?>
 				<?php wp_link_pages(); ?>
-				<?php comments_template(); ?>
 			</article>
 		<?php endwhile; endif; ?>
 

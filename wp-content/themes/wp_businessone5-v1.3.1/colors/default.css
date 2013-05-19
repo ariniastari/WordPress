@@ -7,11 +7,11 @@ fully functional
 */
 
 a, a:visited {
-	color: #ee5222;
+	color: #ed1c24;
 } 
 
 a:hover {
-	color: #a5c5c8;
+	color: #666;
 }
 
 .pre-nav li a:hover {
@@ -40,7 +40,7 @@ a:hover {
 #navigation li.sfHover > a,
 #navigation li.current_page_item a,
 #navigation li.current-menu-item a {
-	color: #fb6f44;
+	color: white;
 }
 
 #navigation > li.sfHover {
@@ -86,7 +86,7 @@ a:hover {
 }
 
 .footer-top {
-	background: #444038 url("../images/pat4.png");
+	background: #333 url("../images/pat4.png");
 }
 
 .footer-top-wrap {

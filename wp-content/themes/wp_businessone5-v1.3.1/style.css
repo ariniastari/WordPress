@@ -378,7 +378,7 @@ Header (Logo etc)
 }
 
 .pre-nav li a,.pre-nav li a:visited {
-	color:#4e4e4e;
+	color:#ccc;
 	font-size:12px;
 }
 
@@ -395,8 +395,7 @@ li.rbn-link a {
 	text-align:center;
 	padding-top:9px;
 	font-size:15px;
-	color:#5d7878;
-	text-shadow:1px 1px 0 rgba(255,255,255,0.5);
+	color:#fff !important;
 	font-weight:700;
 }
 
@@ -422,7 +421,7 @@ li.rbn-link a {
 	font-weight:400;
 	margin-left:15px;
 	position:relative;
-	top:17px;
+	top:80px;
 }
 
 .c-tel,.c-tel:visited {
@@ -488,7 +487,7 @@ Navigation (for every navigational element in the theme)
 	text-align:center;
 	display:block;
 	height:36px;
-	padding:13px 35px 0;
+	padding:13px 24px 0;
 }
 
 #navigation a {
@@ -545,7 +544,7 @@ HomePage Slider
 	border-top:0;
 	padding-bottom:7px;
 	position:relative;
-	top:-3px;
+	top:-15px;
 }
 
 .sld-inner {
@@ -684,7 +683,7 @@ Content
 	letter-spacing:-.025em;
 	text-shadow:1px 1px 0 rgba(255,255,255,0.5);
 	margin-bottom:10px;
-	color:#4e4e4e;
+	color:#003471;
 }
 
 .top-widget-area .ci-more-link,.top-widget-area .ci-more-link:active {
@@ -899,7 +898,7 @@ Footer
 }
 
 .footer-bottom {
-	padding:35px 23px;
+	padding:10px 23px;
 }
 
 #footer .footer-copy .wrap {
@@ -938,8 +937,8 @@ input[type=submit] {
 	text-shadow:1px 1px 0 rgba(0,0,0,0.25);
 	font-size:16px;
 	padding:5px 15px;
-	border:1px solid #f4683c;
-	background:#f05422 url(images/btn-grad.png) bottom repeat-x;
+	border:1px solid #b21a1f;
+	background:#d81b22 url(images/btn-grad.png) bottom repeat-x;
 	cursor:pointer;
 	font:inherit;
 }
@@ -2556,6 +2555,26 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 
 .pp_fade,.pp_gallery li.default a img {
 	display:none;
+}
+
+.official_partner img {
+	width: 75px;
+	height: 75px;
+	border: white solid 3px;
+}
+
+.official_partner ul li {
+	border: none !important;
+	float: left;
+	padding: 0px 5px;
+}
+
+.ci_widget_official_partner {
+	width: 580px !important;
+}
+
+.mast-head {
+	margin-top: 20px;
 }
 
 
