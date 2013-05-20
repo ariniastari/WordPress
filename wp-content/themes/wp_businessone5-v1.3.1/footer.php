@@ -19,13 +19,10 @@
 
 	<div class="footer-copy">
 		<div class="wrap group">
-			<div class="siteinfo alignleft">
-				<a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?>.</a><span class="foot-addr"><?php ci_e_setting('business_address'); ?></span>
-			</div>
-
-			<div class="sitecopy alignright">
-				<?php echo ci_footer(); ?>
-			</div>
+			<center>
+				<p>Official Club of </p>
+				<a href="#"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-klub.jpg"/></a>
+			</center>
 		</div> <!-- .wrap -->
 	</div> <!-- .footer-copy -->
 </footer>
